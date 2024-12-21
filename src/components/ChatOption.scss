@@ -1,0 +1,36 @@
+.submain {
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-img {
+  height: 25rem;
+}
+
+.counsellor img {
+  margin-left: 80px;
+}
+
+.submain p {
+  font-size: medium;
+}
+.submain button {
+  margin-left: 250px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 40px;
+  font-weight: bold;
+}
+
+.submain button:hover,
+.submain button:focus,
+.submain button:active {
+  box-shadow: 0 0 20px rgb(6, 6, 6);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}

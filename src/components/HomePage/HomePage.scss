@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* homepage-video-section */
+.video-call{
+    padding-top: 60px;
+    padding-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-info{
+    padding: 0px 70px;
+    font-size: larger;
+}
+
+.vid-sub-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-headingvideo-info{
+    font-size: larger;
+}
+
+.hp-btn{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background: #222f3d;
+    padding: 10px;
+    margin-left: 300px;
+    margin-top: 30px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration:0.3s ;
+    transition-duration:0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.hp-btn:hover, .hp-btn:focus, .hp-btn:active{
+    box-shadow: 0 0 20px rgba(46, 4, 237, 0.586);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* homepage-chat-section */
+.chat{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-info{
+    padding: 0px 70px;
+    font-size: larger;
+}
+
+.chat-sub-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-headingchat-info{
+    font-size: larger;
+}
+
+/* homepage-article-section */
+.article{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-info{
+    padding: 0px 70px;
+    font-size: larger;
+}
+
+.article-sub-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-headingarticle-info{
+    font-size: larger;
+}
+
+/* client-review-section */
+.testimonials{
+    font-family: sans-serif;
+    padding: 40px 0;
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+}
+
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.border-client{
+    width: 160px;
+    height: 5px;
+    background: #6ab04c;
+    margin: 26px auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col{
+    flex: 33.33%;
+    max-width: 33.34%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.testimonial{
+    background: #fff;
+    padding: 30px;
+}
+
+.testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.stars{
+    color: #f1dd04;
+    margin-bottom: 20px;
+}
+
+
